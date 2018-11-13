@@ -1,0 +1,9 @@
+apply plugin: "kotlin"
+
+ext {
+    deps = [
+            dependencies.gradleApi(),
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+            "com.android.tools.build:gradle:3.2.1",
+    ]
+}

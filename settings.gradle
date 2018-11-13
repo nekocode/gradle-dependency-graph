@@ -1,0 +1,3 @@
+include ':buildSrc', ':example'
+
+project(':buildSrc').buildFileName = 'buildSrc.gradle'

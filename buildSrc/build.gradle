@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.0"
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+apply from: project.file("common.gradle")
+
+dependencies {
+    deps.each {
+        implementation it
+    }
+}

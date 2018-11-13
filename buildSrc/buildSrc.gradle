@@ -1,0 +1,22 @@
+apply from: project.file("common.gradle")
+apply plugin: "com.github.dcendents.android-maven"
+
+dependencies {
+    deps.each {
+        compileOnly it
+    }
+}
+
+// build a jar with source files
+task sourcesJar(type: Jar) {
+    from sourceSets.main.java.srcDirs
+    classifier = "sources"
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+group="com.github.nekocode"
+archivesBaseName="gradle-dep-extract-plugin"
+libsDirName="output"
