@@ -1,5 +1,6 @@
 
-The `${lastest-version}` of this plugin is [![](https://jitpack.io/v/nekocode/DepAnPlugin.svg)](https://jitpack.io/#nekocode/DepAnPlugin). Copy below code to the `build.gradle` of your android application project.
+The `${lastest-version}` of this plugin is [![](https://jitpack.io/v/gradle-dep-graph/gradle-dep-extract-plugin.svg)](https://jitpack.io/#gradle-dep-graph/gradle-dep-extract-plugin)
+. Copy below code to the `build.gradle` of your android application project.
 
 ```gradle
 buildscript {
@@ -7,7 +8,7 @@ buildscript {
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath "com.github.nekocode:DepAnPlugin:${lastest-verion}"
+        classpath "com.github.gradle-dep-graph:gradle-dep-extract-plugin:${lastest-verion}"
     }
 }
 
