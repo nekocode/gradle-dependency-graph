@@ -4,6 +4,6 @@ ext {
     deps = [
             dependencies.gradleApi(),
             "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
-            "com.android.tools.build:gradle:3.2.1",
+            "com.android.tools.build:gradle:4.1.2",
     ]
 }

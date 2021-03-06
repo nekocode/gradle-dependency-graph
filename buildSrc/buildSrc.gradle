@@ -10,7 +10,7 @@ dependencies {
 // build a jar with source files
 task sourcesJar(type: Jar) {
     from sourceSets.main.java.srcDirs
-    classifier = "sources"
+    archiveClassifier.set("sources")
 }
 
 artifacts {

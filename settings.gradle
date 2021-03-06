@@ -1,3 +1,4 @@
-include ':buildSrc', ':example'
+include ':plugin', ':example'
 
-project(':buildSrc').buildFileName = 'buildSrc.gradle'
+project(':plugin').projectDir = new File(rootProject.projectDir, 'buildSrc')
+project(':plugin').buildFileName = 'buildSrc.gradle'

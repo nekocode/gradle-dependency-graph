@@ -8,11 +8,10 @@ extractDep {
 }
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
     defaultConfig {
-        applicationId "cn.nekocode.depan.example"
+        applicationId "cn.nekocode.depgraph.example"
         minSdkVersion 18
-        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -26,5 +25,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation "com.android.support:appcompat-v7:27.1.1"
+    implementation "androidx.appcompat:appcompat:1.2.0"
 }
