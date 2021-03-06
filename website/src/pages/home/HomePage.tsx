@@ -13,9 +13,6 @@ const selectionState = new SelectionState({ nodeId: '', outEdge: true });
 
 const HomePage: React.FC = () => {
   const [dataset, setDataset] = useState<GraphDataset>();
-  // useEffect(() => {
-  //   setDataset(parseDataset(fakeData));
-  // }, []);
 
   const screens = useBreakpoint();
   const {
