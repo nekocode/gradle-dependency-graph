@@ -2,6 +2,7 @@
   "name": "gradle-dep-graph",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://localhost/gradle-dependency-graph",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
