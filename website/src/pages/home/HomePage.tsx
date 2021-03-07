@@ -62,7 +62,7 @@ const HomePage: React.FC = () => {
         <div {...getRootProps({ style })}>
           <input {...getInputProps()} />
           <p>
-            Drag and drop <strong>dep.json</strong> files here
+            Drag and drop <strong>dep.json</strong> file here
           </p>
         </div>
       </DropzoneContainer>
