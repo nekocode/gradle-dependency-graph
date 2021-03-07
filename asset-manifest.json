@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/gradle-dependency-graph/static/js/main.2e55e49b.chunk.js",
+    "main.js": "/gradle-dependency-graph/static/js/main.bb062497.chunk.js",
     "runtime-main.js": "/gradle-dependency-graph/static/js/runtime-main.803f7b58.js",
     "static/css/2.4757cd56.chunk.css": "/gradle-dependency-graph/static/css/2.4757cd56.chunk.css",
     "static/js/2.fe33553c.chunk.js": "/gradle-dependency-graph/static/js/2.fe33553c.chunk.js",
@@ -11,6 +11,6 @@
     "static/js/runtime-main.803f7b58.js",
     "static/css/2.4757cd56.chunk.css",
     "static/js/2.fe33553c.chunk.js",
-    "static/js/main.2e55e49b.chunk.js"
+    "static/js/main.bb062497.chunk.js"
   ]
 }
