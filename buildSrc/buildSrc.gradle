@@ -18,5 +18,5 @@ artifacts {
 }
 
 group="com.github.nekocode"
-archivesBaseName="gradle-dep-extract-plugin"
+archivesBaseName="gradle-dependency-graph"
 libsDirName="output"

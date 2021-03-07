@@ -1,5 +1,5 @@
 
-The `${lastest-version}` of this plugin is [![](https://jitpack.io/v/gradle-dep-graph/gradle-dep-extract-plugin.svg)](https://jitpack.io/#gradle-dep-graph/gradle-dep-extract-plugin)
+The `${lastest-version}` of this plugin is [![](https://jitpack.io/v/nekocode/gradle-dependency-graph.svg)](https://jitpack.io/#nekocode/gradle-dependency-graph)
 . Copy below code to the `build.gradle` of your android application project.
 
 ```gradle
@@ -8,7 +8,7 @@ buildscript {
         maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath "com.github.gradle-dep-graph:gradle-dep-extract-plugin:${lastest-verion}"
+        classpath "com.github.nekocode:gradle-dependency-graph:${lastest-verion}"
     }
 }
 
@@ -23,8 +23,8 @@ apply plugin: "dep-extract"
 
 Now, you can extract the dependency graph of corresponding buildType into a json file by running gradle task `extractDep${buildType}` (such as `extractDepRelease`).
 
-Visualize:
+#### Visualize:
 
-Rename the the output json file to `data.json` and copy it to the project [gradle-dep-graph-react](https://github.com/gradle-dep-graph/gradle-dep-graph-react)'s `public` directory. Then build and run this react project.
+Drag and drop the output json file to the website [nekocode.github.io/gradle-dependency-graph](https://nekocode.github.io/gradle-dependency-graph).
 
-The final effect is like: [gradle-dep-graph.github.io](https://gradle-dep-graph.github.io)
+<img alt="screenshot" src="screenshot.jpg" height="280" />
